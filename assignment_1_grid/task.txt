@@ -1,0 +1,31 @@
+Sample of Assignment 1
+Topic: advanced policy gradient. 
+
+You pick a Markov decision process to be addressed and get it approved
+by course instructors .
+Alternatively, ask course instructors to help pick an MDP. 
+
+Pick an advanced policy gradient method, e.g., TRPO or PPO. 
+Implement the MDP and policy gradient agent in Python. 
+
+Ready engines for environments, such as Gymnasium, are allowed, however, the agent must be
+implemented from the first principles using PyTorch. 
+
+That is, no ready setups from frameworks like stable-baselines3 are allowed. 
+
+Also, for the first team project, no Gymnasium is allowed, i.e., an MDP must be
+implemented from the first principles, e.g., using only numpy as the core.
+
+Preferable forms of implementation: code repository or Google Colab. In both cases, the concrete problem
+must be well described. In case of a code repository, an understandable readme must be present.
+Instructions must be provided on how to reproduce results.
+
+
+Recommended repository structure:
+1. src/ - core components of the program (environments, agents etc.)
+2. run/ - run files and bash scripts
+3. artifacts/ - storage of statistics, e.g., .csv files, model checkpoints etc.
+4. analysis/ - scripts for evaluation, e.g., interactive Python notebooks for statistics visualization
+Teams must follow Python naming standards and conventions, rules of clean code and document code
+thoroughly and appropriately.
+No written reports are needed.
