@@ -68,8 +68,11 @@ Q-values represent the expected future rewards for each action at a given state.
 - **Environment:** Static obstacles, LiDAR active  
 - **Actions:** Horizontal, vertical, diagonal grid steps  
 
-![Learning History (Static)](link_to_gif)  
-![Plot of Learning History (Static)](link_to_plot)
+Animation (Static)
+![Learning History (Static)](assignment_1_lidar/figures/static_animation.gif)  
+
+Plot of Learning History (Static)
+![Plot of Learning History (Static)](assignment_1_lidar/figures/learning_static.jpg)
 
 **Agent Performance:**  
 - Steps: 16  
@@ -82,8 +85,11 @@ Q-values represent the expected future rewards for each action at a given state.
 - **Environment:** Dynamic obstacles, LiDAR active  
 - **Actions:** Horizontal, vertical, diagonal grid steps  
 
-![Learning History (Dynamic)](link_to_gif)  
-![Plot of Learning History (Dynamic)](link_to_plot)
+Animation (Dynamic)
+![Learning History (Dynamic)](assignment_1_lidar/figures/dynamic_animation.gif)  
+
+Plot of Learning History (Dynamic)
+![Plot of Learning History (Dynamic)](assignment_1_lidar/figures/learning_dynamic.jpg)
 
 **Agent Performance:**  
 - Steps: 16  
